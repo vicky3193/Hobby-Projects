@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!---Navbar-->
+   
+    <div class="container-fluid col-10">
+     <nav class="navbar navbar-expand-lg" id="navbar">
+        <b class="bold">Frontend Forever</b>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+     </nav>
+
+
+     <!------Home------>
+
+      <section id="home">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12 order-1">
+              <h1 class="display-4">Welcome To <br> <span>Frontend Forever</span></h1>
+              <p class="my-lg-3 my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi earum sit obcaecati tempora, corrupti illum fugiat, laudantium adipisci nulla mollitia quaerat sint iure eligendi id blanditiis aliquam error nihil dolorem.</p>
+              <button class="btn btn-danger my-lg-3 my-3">Get Started</button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3 order-sm-2">
+              <img src="./images/web-development-concept-with-programmer-ar_107791-17049.avif" class="img-fluid" alt="">
+            </div>
+        </div>
+      </section>
+
+     <!------About-->
+
+      <section id="about">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3">
+            <img src="./images/Top-6-Front-End-Web-Development-Tools-to-Increase-Your-Productivity-in-2020-1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <h6 style="font-size: 50px;">ABOUT US</h6>
+            <h1 class="display-5"> <span>Frontend Forever</span></h1>
+            <p class="my-lg-3 my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae natus in accusantium ut quaerat fugiat excepturi eius quia quas? Eos quod ut dolore praesentium commodi culpa nostrum, eveniet fugit ipsam.</p>
+            <button class="btn btn-danger my-lg-3 my-3">Services</button>
+          </div>
+      </div>  
+      </section>
+
+      <!-----Services-->
+      <section id="services">
+        <div class="row">
+         <h1 class="text-center">OUR SERVICES</h1>
+         <div class="col-md-4 col-lg-4 col-12 my-2">
+           <div class="card shadow"> 
+             <img src="./images/ABC-of-building-a-career-in-UIUX-design.png.webp" class="card-img-top" alt="">
+             <div class="card-body">
+              <h5 class="card-title">Responsive Website</h5>
+              <div class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit nesciunt tempore modi? Ab
+             </div>
+             <a href="#" class="btn btn-success">Learn More</a>
+           </div>
+         </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12 my-2">
+          <div class="card shadow"> 
+            <img src="./images/ABC-of-building-a-career-in-UIUX-design.png.webp" class="card-img-top" alt="">
+            <div class="card-body">
+             <h5 class="card-title">Responsive Website</h5>
+             <div class="card-text">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit nesciunt tempore modi? Ab
+            </div>
+            <a href="#" class="btn btn-success">Learn More</a>
+          </div>
+        </div>
+       </div>
+       <div class="col-md-4 col-lg-4 col-12 my-2">
+        <div class="card shadow"> 
+          <img src="./images/ABC-of-building-a-career-in-UIUX-design.png.webp" class="card-img-top" alt="">
+          <div class="card-body">
+           <h5 class="card-title">Responsive Website</h5>
+           <div class="card-text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit nesciunt tempore modi? Ab
+          </div>
+          <a href="#" class="btn btn-success">Learn More</a>
+        </div>
+      </div>
+     </div>
+      </section>
+
+      <!------Contact-->
+
+      <section id="contact">
+         <div class="col-lg-4 col-md-6 col-12">
+           <form>
+            <div class="mb-3 text-center">
+               <h3 class="py-lg-1 py-3">CONTACT FORM</h3>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label>Name</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 py-lg-2 py-3">
+                 <button class="btn btn-primary">Submit</button>
+            </div>
+           </form>
+         </div>
+      </section>
+    </div>
+
+ 
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
